@@ -1,6 +1,7 @@
 /**
  * Created by tmp on 29.12.2016.
  */
+import java.util.Scanner;
 public class HelloClass {
     public static void main(String[] args) {
         System.out.print("Hello WORLD!");
@@ -22,5 +23,14 @@ public class HelloClass {
                  };
          for (int i = 0; i < n; i++)
              System.out.println(a[i]);
+     }
+ }
+
+ class Stringmeister {
+     public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+         String s = sc.nextLine();
+         String s1 = s.replace('q', 'w');
+         System.out.println(s1);
      }
  }
